@@ -1,0 +1,4 @@
+name = sithu
+description = just a simple example module
+version = 0.1
+core = 7.x

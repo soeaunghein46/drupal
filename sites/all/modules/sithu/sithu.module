@@ -1,0 +1,9 @@
+<?php
+	function sithu_form_alter(&$form, &$form_state, $form_id){
+		dpm($form);
+		if ($form['#form_id'] == "article_node_form") {
+			$form['title']['#title'] = t('New Form Title');
+			$form['body']['und'][0]['#title'] = t('test');
+	
+		}
+	}

@@ -1,0 +1,4 @@
+name = upload
+description = example module
+version = 0.1
+core = 7.x
